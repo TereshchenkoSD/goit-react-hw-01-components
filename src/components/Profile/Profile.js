@@ -37,13 +37,13 @@ const Profile = ({
 };
 
 Profile.propTypes = {
-  url: PropTypes.string,
-  profileName: PropTypes.string,
-  tagName: PropTypes.string,
-  location: PropTypes.string,
-  followerQuantity: PropTypes.number,
-  viewsQuantity: PropTypes.number,
-  likesQuantity: PropTypes.number,
+  url: PropTypes.string.isRequired,
+  profileName: PropTypes.string.isRequired,
+  tagName: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  followerQuantity: PropTypes.number.isRequired,
+  viewsQuantity: PropTypes.number.isRequired,
+  likesQuantity: PropTypes.number.isRequired,
 };
 
 export default Profile;
