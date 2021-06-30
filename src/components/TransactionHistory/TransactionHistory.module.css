@@ -1,0 +1,26 @@
+.transactionHistory {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+thead {
+  width: calc(100% / 3);
+  height: 65px;
+  background-color: #00bcd5;
+  color: #fff;
+}
+
+tr {
+  height: 45px;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #edf7f9;
+}
